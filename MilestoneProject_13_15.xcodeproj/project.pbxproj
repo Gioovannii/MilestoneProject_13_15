@@ -13,6 +13,7 @@
 		7BB77F75275DBD1B00211C56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB77F74275DBD1B00211C56 /* Preview Assets.xcassets */; };
 		7BB77F77275DBD1B00211C56 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F76275DBD1B00211C56 /* Persistence.swift */; };
 		7BB77F7A275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F78275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld */; };
+		7BB77F82275DD92300211C56 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F81275DD92300211C56 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7BB77F74275DBD1B00211C56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BB77F76275DBD1B00211C56 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7BB77F79275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MilestoneProject_13_15.xcdatamodel; sourceTree = "<group>"; };
+		7BB77F81275DD92300211C56 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		7BB77F6C275DBD1A00211C56 /* MilestoneProject_13_15 */ = {
 			isa = PBXGroup;
 			children = (
+				7BB77F80275DD90E00211C56 /* Model */,
 				7BB77F6D275DBD1A00211C56 /* MilestoneProject_13_15App.swift */,
 				7BB77F6F275DBD1A00211C56 /* ContentView.swift */,
 				7BB77F71275DBD1B00211C56 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				7BB77F74275DBD1B00211C56 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BB77F80275DD90E00211C56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BB77F81275DD92300211C56 /* ImagePicker.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				7BB77F77275DBD1B00211C56 /* Persistence.swift in Sources */,
 				7BB77F70275DBD1A00211C56 /* ContentView.swift in Sources */,
+				7BB77F82275DD92300211C56 /* ImagePicker.swift in Sources */,
 				7BB77F7A275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld in Sources */,
 				7BB77F6E275DBD1A00211C56 /* MilestoneProject_13_15App.swift in Sources */,
 			);
