@@ -14,6 +14,7 @@
 		7BB77F77275DBD1B00211C56 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F76275DBD1B00211C56 /* Persistence.swift */; };
 		7BB77F7A275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F78275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld */; };
 		7BB77F82275DD92300211C56 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F81275DD92300211C56 /* ImagePicker.swift */; };
+		7BB77F84275DD95200211C56 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB77F83275DD95200211C56 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7BB77F76275DBD1B00211C56 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7BB77F79275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MilestoneProject_13_15.xcdatamodel; sourceTree = "<group>"; };
 		7BB77F81275DD92300211C56 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7BB77F83275DD95200211C56 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7BB77F81275DD92300211C56 /* ImagePicker.swift */,
+				7BB77F83275DD95200211C56 /* ImageSaver.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB77F77275DBD1B00211C56 /* Persistence.swift in Sources */,
+				7BB77F84275DD95200211C56 /* ImageSaver.swift in Sources */,
 				7BB77F70275DBD1A00211C56 /* ContentView.swift in Sources */,
 				7BB77F82275DD92300211C56 /* ImagePicker.swift in Sources */,
 				7BB77F7A275DBD1B00211C56 /* MilestoneProject_13_15.xcdatamodeld in Sources */,
