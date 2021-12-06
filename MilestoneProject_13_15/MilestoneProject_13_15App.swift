@@ -13,7 +13,7 @@ struct MilestoneProject_13_15App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(users: User.dumbUsers)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
